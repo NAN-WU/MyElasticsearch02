@@ -36,8 +36,8 @@ public class MyTEST {
         // {id:1,title:"xxx",content:"xxxxxx"}
         XContentBuilder builder = XContentFactory.jsonBuilder().startObject()
                 .field("id", "1")
-                .field("title", "7ElasticSearch是一个基于Lucene的搜索服务器。")
-                .field("content", "7它提供了一个分布式多用户能力的全文搜索引擎，基于RESTful web接口。Elasticsearch是用Java开发的，并作为Apache许可条款下的开放源码发布，" +
+                .field("title", "9ElasticSearch是一个基于Lucene的搜索服务器。")
+                .field("content", "9它提供了一个分布式多用户能力的全文搜索引擎，基于RESTful web接口。Elasticsearch是用Java开发的，并作为Apache许可条款下的开放源码发布，" +
                         "是当前流行的企业级搜索引擎。设计用于云计算中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。")
                 .endObject();
         //创建索引、创建文档类型、设置唯一主键。同时创建文档
